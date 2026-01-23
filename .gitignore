@@ -1,0 +1,7 @@
+## Ignore all folders (directories)
+*/
+
+## Ignore common binary/artifact files
+*.png
+*.jar
+*.mrpack
