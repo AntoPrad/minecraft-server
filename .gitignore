@@ -5,3 +5,6 @@
 *.png
 *.jar
 *.mrpack
+
+## Ignore any file/folder containing 'cache'
+*cache*
