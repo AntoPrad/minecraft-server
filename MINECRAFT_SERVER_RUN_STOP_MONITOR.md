@@ -64,7 +64,7 @@ sudo -i -u minecraft
 ## Start (foreground)
 
 ```bash
-sudo -u minecraft bash -c 'cd /srv/minecraft && java -Xms4G -Xmx6G -jar fabric-server-mc.1.21.1-loader.0.18.4-launcher.1.1.1.jar nogui'
+sudo -u minecraft bash -c 'cd /srv/minecraft && java -Xms6G -Xmx6G -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -jar fabric-server-mc.1.21.1-loader.0.18.0-launcher.1.1.0.jar nogui'
 ```
 
 ---
@@ -74,7 +74,7 @@ sudo -u minecraft bash -c 'cd /srv/minecraft && java -Xms4G -Xmx6G -jar fabric-s
 ### Create a detached session and run the server
 
 ```bash
-sudo -u minecraft bash -c 'cd /srv/minecraft && screen -S mc -dm bash -lc "java -Xms4G -Xmx6G -jar fabric-server-mc.1.21.1-loader.0.18.4-launcher.1.1.1.jar nogui"'
+sudo -u minecraft bash -c 'cd /srv/minecraft && screen -S mc -dm bash -lc "java -Xms6G -Xmx6G -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -jar fabric-server-mc.1.21.1-loader.0.18.0-launcher.1.1.0.jar nogui"'
 ```
 
 ### Attach to the console

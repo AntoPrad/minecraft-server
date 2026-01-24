@@ -74,12 +74,12 @@ sudo chown minecraft:minecraft "/srv/minecraft/Cobblemon Modpack [Fabric] 1.7.1.
 
 You have the Fabric server launcher jar:
 
-- `fabric-server-mc.1.21.1-loader.0.18.4-launcher.1.1.1.jar`
+- `fabric-server-mc.1.21.1-loader.0.18.0-launcher.1.1.0.jar`
 
 Place it into `/srv/minecraft` (same method as the `.mrpack`), then run it once to download server files and libraries:
 
 ```bash
-sudo -u minecraft bash -c 'cd /srv/minecraft && java -Xms4G -Xmx6G -jar fabric-server-mc.1.21.1-loader.0.18.4-launcher.1.1.1.jar nogui'
+sudo -u minecraft bash -c 'cd /srv/minecraft && java -Xms6G -Xmx6G -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -jar fabric-server-mc.1.21.1-loader.0.18.0-launcher.1.1.0.jar nogui'
 ```
 
 This step creates folders like `libraries/`, `versions/`, and generates `server.properties`.
@@ -186,7 +186,7 @@ Also ensure OVH firewall (control panel) allows inbound TCP 25565.
 Start once (foreground) and confirm you see `Starting Minecraft server on *:25565` and `Done (...)!`:
 
 ```bash
-sudo -u minecraft bash -c 'cd /srv/minecraft && java -Xms4G -Xmx6G -jar fabric-server-mc.1.21.1-loader.0.18.4-launcher.1.1.1.jar nogui'
+sudo -u minecraft bash -c 'cd /srv/minecraft && java -Xms6G -Xmx6G -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -jar fabric-server-mc.1.21.1-loader.0.18.0-launcher.1.1.0.jar nogui'
 ```
 
 Then stop cleanly by typing `stop` in the server console.

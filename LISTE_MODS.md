@@ -2,7 +2,7 @@
 
 ## Serveur
 
-- fabric-server-mc.1.21.1-loader.0.18.4-launcher.1.1.1.jar (server)
+- fabric-server-mc.1.21.1-loader.0.18.0-launcher.1.1.0.jar (server)
 
 ## Modpacks
 
