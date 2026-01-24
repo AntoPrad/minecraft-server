@@ -21,17 +21,18 @@ Admin-only tasks (firewall, packages, ownership) must be done as your admin user
 The Minecraft process itself should run as the unprivileged `minecraft` user.
 
 ### If `sudo -i -u minecraft` “does nothing”
+
 That typically means the `minecraft` account has a non-login shell (e.g. `/bin/false`).
 
 Two options:
 
-1) Keep it locked down and run commands as `minecraft` non-interactively:
+1. Keep it locked down and run commands as `minecraft` non-interactively:
 
 ```bash
 sudo -u minecraft bash -c 'cd /srv/minecraft && <command>'
 ```
 
-2) Allow interactive login by changing the shell:
+2. Allow interactive login by changing the shell:
 
 ```bash
 sudo chsh -s /bin/bash minecraft
@@ -43,7 +44,7 @@ sudo -i -u minecraft
 ## Start (foreground)
 
 ```bash
-sudo -u minecraft bash -c 'cd /srv/minecraft && java -Xms2G -Xmx6G -jar fabric-server-mc.1.21.1-loader.0.18.4-launcher.1.1.1.jar nogui'
+sudo -u minecraft bash -c 'cd /srv/minecraft && java -Xms4G -Xmx6G -jar fabric-server-mc.1.21.1-loader.0.18.4-launcher.1.1.1.jar nogui'
 ```
 
 ---
@@ -53,7 +54,7 @@ sudo -u minecraft bash -c 'cd /srv/minecraft && java -Xms2G -Xmx6G -jar fabric-s
 ### Create a detached session and run the server
 
 ```bash
-sudo -u minecraft bash -c 'cd /srv/minecraft && screen -S mc -dm bash -lc "java -Xms2G -Xmx6G -jar fabric-server-mc.1.21.1-loader.0.18.4-launcher.1.1.1.jar nogui"'
+sudo -u minecraft bash -c 'cd /srv/minecraft && screen -S mc -dm bash -lc "java -Xms4G -Xmx6G -jar fabric-server-mc.1.21.1-loader.0.18.4-launcher.1.1.1.jar nogui"'
 ```
 
 ### Attach to the console
@@ -63,6 +64,7 @@ sudo -u minecraft screen -r mc
 ```
 
 Detach from screen without stopping server:
+
 - Press `Ctrl+A`, then `D`
 
 ---
@@ -149,6 +151,7 @@ htop
 ## Common fixes
 
 ### “Unknown command: stop<--[HERE]”
+
 That happens when extra characters are sent. Ensure the command is exactly:
 
 ```text
@@ -156,7 +159,9 @@ stop
 ```
 
 ### Server doesn’t start after restart
+
 Re-run from `/srv/minecraft` and watch the first error in `logs/latest.log`. Common causes:
+
 - Java not installed / wrong Java version
 - Corrupt download / missing libraries
 - A mod is client-only or incompatible

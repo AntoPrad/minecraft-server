@@ -17,6 +17,7 @@ It intentionally does **not** cover daily operations (run/stop/monitor). See `MI
 ## 0) Users, folder, and Java
 
 ### Create the server folder
+
 Run as your admin user (e.g. `ubuntu`) with sudo:
 
 ```bash
@@ -24,6 +25,7 @@ sudo mkdir -p /srv/minecraft
 ```
 
 ### Create the `minecraft` user (recommended)
+
 ```bash
 sudo useradd -m -r -s /bin/bash minecraft || true
 sudo chown -R minecraft:minecraft /srv/minecraft
@@ -38,6 +40,7 @@ getent passwd minecraft
 ```
 
 ### Install Java (Minecraft 1.21.x uses Java 21)
+
 ```bash
 sudo apt update
 sudo apt install -y openjdk-21-jre-headless curl unzip screen python3
@@ -49,6 +52,7 @@ java -version
 ## 1) Upload the modpack file to the VPS
 
 You used the Modrinth pack file:
+
 - `Cobblemon Modpack [Fabric] 1.7.1.mrpack`
 
 Example upload from your PC to the VPS:
@@ -69,12 +73,13 @@ sudo chown minecraft:minecraft "/srv/minecraft/Cobblemon Modpack [Fabric] 1.7.1.
 ## 2) Install / generate the Fabric server runtime
 
 You have the Fabric server launcher jar:
+
 - `fabric-server-mc.1.21.1-loader.0.18.4-launcher.1.1.1.jar`
 
 Place it into `/srv/minecraft` (same method as the `.mrpack`), then run it once to download server files and libraries:
 
 ```bash
-sudo -u minecraft bash -c 'cd /srv/minecraft && java -Xms2G -Xmx6G -jar fabric-server-mc.1.21.1-loader.0.18.4-launcher.1.1.1.jar nogui'
+sudo -u minecraft bash -c 'cd /srv/minecraft && java -Xms4G -Xmx6G -jar fabric-server-mc.1.21.1-loader.0.18.4-launcher.1.1.1.jar nogui'
 ```
 
 This step creates folders like `libraries/`, `versions/`, and generates `server.properties`.
@@ -92,6 +97,7 @@ sudo -u minecraft bash -c 'cd /srv/minecraft && printf "eula=true\n" > eula.txt 
 ## 4) Install the modpack contents from the `.mrpack`
 
 This command:
+
 - reads the pack manifest (`modrinth.index.json`)
 - downloads all listed files that are **not** marked as client-only (`env.server == unsupported`)
 - verifies SHA-512 hashes when present
@@ -180,7 +186,7 @@ Also ensure OVH firewall (control panel) allows inbound TCP 25565.
 Start once (foreground) and confirm you see `Starting Minecraft server on *:25565` and `Done (...)!`:
 
 ```bash
-sudo -u minecraft bash -c 'cd /srv/minecraft && java -Xms2G -Xmx6G -jar fabric-server-mc.1.21.1-loader.0.18.4-launcher.1.1.1.jar nogui'
+sudo -u minecraft bash -c 'cd /srv/minecraft && java -Xms4G -Xmx6G -jar fabric-server-mc.1.21.1-loader.0.18.4-launcher.1.1.1.jar nogui'
 ```
 
 Then stop cleanly by typing `stop` in the server console.
