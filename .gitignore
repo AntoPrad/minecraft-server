@@ -28,7 +28,7 @@
 ############################
 # Datapacks
 ############################
-!world/datapacks/**
+!world/datapacks/*/data/**
 
 ############################
 # Server config files
