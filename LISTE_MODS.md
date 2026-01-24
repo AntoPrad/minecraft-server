@@ -19,6 +19,8 @@
 - rctmod-fabric-1.21.1-0.17.4-beta.jar (server & client)
 - architectury-13.0.8-fabric.jar (server & client)
 - ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar (server & client)
+- Radical Gyms & Structures - RGS.jar (server & client)
+- DATA PACK : RCT-Badges-CobblemonPokemonBadges-0.15+1.1.2.zip
 
 ### Hunger Remover
 

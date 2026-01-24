@@ -161,7 +161,7 @@
 	freeroamRequiresCompletedSeries = true
 	#━━━━━━━━━━
 	#If enabled the level cap of a players will not prevent their pokemon from gaining experience and leveling up.
-	allowOverLeveling = false
+	allowOverLeveling = true
 
 [Debug]
 	#━━━━━━━━━━
