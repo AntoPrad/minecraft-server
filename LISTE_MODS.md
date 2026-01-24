@@ -19,6 +19,10 @@
 - architectury-13.0.8-fabric.jar (manquant sur le serveur)
 - ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar (manquant sur le serveur)
 
+### Hunger Remover
+
+- hunger-remover-1.0.10.jar
+
 ## Ressource Packs
 
 ### Cobblemon French
