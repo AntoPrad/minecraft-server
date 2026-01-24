@@ -20,6 +20,26 @@ Admin-only tasks (firewall, packages, ownership) must be done as your admin user
 
 The Minecraft process itself should run as the unprivileged `minecraft` user.
 
+### Add permissions to minecraft user
+
+If you copy or create files in `/srv/minecraft` as root, give ownership to the `minecraft` user so the server can read and write them. Example commands:
+
+```bash
+sudo chown -R minecraft:minecraft /srv/minecraft
+
+# set sensible permissions (directories 755, files 644)
+sudo find /srv/minecraft -type d -exec chmod 755 {} +
+sudo find /srv/minecraft -type f -exec chmod 644 {} +
+```
+
+To check if any file or folder has not good permissions for minecraft
+
+```bash
+sudo find /srv/minecraft \( ! -user minecraft -o ! -group minecraft \) -ls
+sudo find /srv/minecraft -type d ! -perm 0755 -ls
+sudo find /srv/minecraft -type f ! -perm 0644 -ls
+```
+
 ### If `sudo -i -u minecraft` “does nothing”
 
 That typically means the `minecraft` account has a non-login shell (e.g. `/bin/false`).
