@@ -1,10 +1,71 @@
-## Ignore all folders (directories)
-*/
+############################
+# Default: ignore everything
+############################
+*
 
-## Ignore common binary/artifact files
-*.png
+############################
+# Allow directories
+############################
+!*/
+
+############################
+# Allow important folders
+############################
+!config/
+!world/datapacks/
+!scripts/
+!docs/
+
+############################
+# Allow config files
+############################
+!config/**/*.json
+!config/**/*.toml
+!config/**/*.yml
+!config/**/*.yaml
+!config/**/*.conf
+
+############################
+# Datapacks
+############################
+!world/datapacks/**
+
+############################
+# Server config files
+############################
+!server.properties
+!eula.txt
+!*.sh
+!*.ps1
+
+############################
+# Ignore runtime junk
+############################
+logs/
+crash-reports/
+*cache*
+run/
+libraries/
+
+############################
+# Ignore mods & assets
+############################
+mods/
 *.jar
+*.png
 *.mrpack
 
-## Ignore any file/folder containing 'cache'
-*cache*
+############################
+# Ignore worlds & player data
+############################
+world/*
+!world/datapacks/
+!world/datapacks/**
+
+############################
+# OS / editor junk
+############################
+.DS_Store
+.idea/
+.vscode/
+*.swp
