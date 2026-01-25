@@ -1,6 +1,6 @@
 # Liste de mods ajoutés sur le serveur
 
-## Serveur
+## Server Files - Cobblemon Modpack [Fabric] 1.7.1.zip
 
 - fabric-server-mc.1.21.1-loader.0.18.0-launcher.1.1.0.jar (server)
 
@@ -26,8 +26,8 @@
 
 - hunger-remover-1.0.10.jar (server & client)
 
-## Ressource Packs
+### Cobblemon additions
 
-### Cobblemon French
-
-- cobblemon-french-1.7.2.zip (client)
+- cobblemon-additions-4.2.1.jar
+- waystones-fabric-1.21.1-21.1.25.jar
+- balm-fabric-1.21.1-21.0.56.jar
