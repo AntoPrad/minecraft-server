@@ -21,6 +21,8 @@
 - ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar (server & client)
 - Radical Gyms & Structures - RGS.jar (server & client)
 - DATA PACK : RCT-Badges-CobblemonPokemonBadges-0.15+1.1.2.zip
+- CobbleFurnies-fabric-1.0.jar
+- athena-fabric-1.21-4.0.2.jar
 
 ### Hunger Remover
 
@@ -31,3 +33,4 @@
 - cobblemon-additions-4.2.1.jar
 - waystones-fabric-1.21.1-21.1.25.jar
 - balm-fabric-1.21.1-21.0.56.jar
+- CobbleDollars-fabric-2.0.0+Beta-5.1+1.21.1.jar
