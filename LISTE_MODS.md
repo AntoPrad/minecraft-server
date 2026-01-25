@@ -34,3 +34,9 @@
 - waystones-fabric-1.21.1-21.1.25.jar
 - balm-fabric-1.21.1-21.0.56.jar
 - CobbleDollars-fabric-2.0.0+Beta-5.1+1.21.1.jar
+
+### XP Mods
+
+- capturexp-fabric-1.7.1-1.3.0.jar
+- playerxp-fabric-1.0.4+1.21.1.jar
+- timcore-fabric-1.7.1-1.29.1.jar
