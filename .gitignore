@@ -24,6 +24,7 @@
 !config/**/*.yml
 !config/**/*.yaml
 !config/**/*.conf
+!config/**/*.properties
 
 ############################
 # Datapacks
