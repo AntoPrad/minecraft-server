@@ -40,3 +40,7 @@
 - capturexp-fabric-1.7.1-1.3.0.jar
 - playerxp-fabric-1.0.4+1.21.1.jar
 - timcore-fabric-1.7.1-1.29.1.jar
+
+### Cobblemon Journey Mounts
+
+- journey-mount-1.7.1.jar
