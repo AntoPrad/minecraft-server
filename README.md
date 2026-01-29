@@ -1,4 +1,4 @@
-# Guide d'installation de Minecraft Cobblemon (côté client):
+# Guide d'installation de Minecraft Cobblemon (côté client)
 
 1. Installer **Minecraft Launcher** (https://apps.microsoft.com/detail/9PGW18NPBZV5?hl=fr-fr&gl=FR&ocid=pdpshare)
 
