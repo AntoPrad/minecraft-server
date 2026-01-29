@@ -1,14 +1,14 @@
 # Guide d'installation de Minecraft Cobblemon (côté client):
 
-1. Installer Minecraft Launcher (https://apps.microsoft.com/detail/9PGW18NPBZV5?hl=fr-fr&gl=FR&ocid=pdpshare)
+1. Installer **Minecraft Launcher** (https://apps.microsoft.com/detail/9PGW18NPBZV5?hl=fr-fr&gl=FR&ocid=pdpshare)
 
-2. Installer Minecraft via le launcher et se connecter à son compte
+2. Installer **Minecraft** via le launcher et se connecter à son compte
 
-3. Installer Modrinth (https://modrinth.com/app)
+3. Installer **Modrinth** (https://modrinth.com/app)
 
-4. Se connecter à Modrinth en liant son compte Minecraft
+4. Se connecter à **Modrinth** en liant son compte Minecraft
 
-5. Installer les modpacks/mods/datapacks suivants sur Modrinth (il est possible que certains soient déjà installés) :
+5. Installer les modpacks/mods/datapacks suivants sur **Modrinth** (il est possible que certains soient déjà installés) :
 
 | Mod | Catégorie | Version |
 | --- | --- | --- |
@@ -25,11 +25,13 @@
 | Lootr | Mod | 1.11.36.114 |
 | RCT Badges — Cobblemon Pokemon Badges | Datapack | 1.1.2 |
 
-6. Lancer Minecraft via Modrinth (instance "Cobblemon Modpack [Fabric]"), en cliquant sur "Play" en haut à droite. Patienter le temps que le jeu se lance (c'est pas immédiat).
+6. Lancer Minecraft via Modrinth (instance **"Cobblemon Modpack [Fabric]"**), en cliquant sur "Play" en haut à droite.   
+Patienter le temps que le jeu se lance (met un peu de temps).
 
 7. Une fois le jeu lancé, aller dans "Options" et :
-    - Language > ajouter Français > s'assurer qu'il soit en haut de la liste à droite
-    - Packs de ressources > ajouter tous les mods sauf "Contraste élevé" et "Art de programmeur"
-    - [Optionnel car gourmand en ressources, mais rend le jeu 1000x plus joli] Activer les shaders : Graphismes > Iris (à gauche) > Activer les Shaders, puis cliquer sur "ComplementaryReimagined..." et appliquer.
+    - **Language** > ajouter Français > s'assurer qu'il soit en haut de la liste à droite
+    - **Packs de ressources** > ajouter tous les mods sauf "Contraste élevé" et "Art de programmeur"
+    - [Optionnel car gourmand en ressources, mais rend le jeu 1000x plus joli] Activer les shaders :   
+    **Graphismes** > Iris (à gauche) > Activer les Shaders, puis cliquer sur "ComplementaryReimagined..." et appliquer.
 
-8. Une fois ces options modifiées, aller dans Multijoueur et ajouter le serveur avec l'adresse IP fournie.
+8. Une fois ces options modifiées, aller dans **Multijoueur** et ajouter le serveur avec l'adresse IP fournie.
