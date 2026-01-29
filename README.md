@@ -28,8 +28,8 @@
 6. Lancer Minecraft via Modrinth (instance "Cobblemon Modpack [Fabric]"), en cliquant sur "Play" en haut à droite. Patienter le temps que le jeu se lance (c'est pas immédiat).
 
 7. Une fois le jeu lancé, aller dans "Options" et :
-  - Language > ajouter Français > s'assurer qu'il soit en haut de la liste à droite
-  - Packs de ressources > ajouter tous les mods sauf "Contraste élevé" et "Art de programmeur"
-  - [Optionnel car gourmand en ressources, mais rend le jeu 1000x plus joli] Activer les shaders : Graphismes > Iris (à gauche) > Activer les Shaders, puis cliquer sur "ComplementaryReimagined..." et appliquer.
+    - Language > ajouter Français > s'assurer qu'il soit en haut de la liste à droite
+    - Packs de ressources > ajouter tous les mods sauf "Contraste élevé" et "Art de programmeur"
+    - [Optionnel car gourmand en ressources, mais rend le jeu 1000x plus joli] Activer les shaders : Graphismes > Iris (à gauche) > Activer les Shaders, puis cliquer sur "ComplementaryReimagined..." et appliquer.
 
 8. Une fois ces options modifiées, aller dans Multijoueur et ajouter le serveur avec l'adresse IP fournie.
