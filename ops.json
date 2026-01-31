@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "uuid": "df2d6eae-15f6-40be-9717-33365ce90898",
+        "name": "Rive92",
+        "level": 4,
+        "bypassesPlayerLimit": true
+    }
+]
