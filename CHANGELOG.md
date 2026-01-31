@@ -5,8 +5,8 @@
 | Mod                                             | Catégorie | Version      | Changement |
 | ----------------------------------------------- | --------- | ------------ | ---------- |
 | Cobblemon Pasture Loot                          | Mod       | 1.0.5        | Ajouté     |
-| Sophisticated Backpacks (Unoffical Fabric port) | Mod       | 3.23.4.5.110 |
-| Sophisticated Storage (Unofficial Fabric port)  | Mod       | 1.3.7.9.139  |
+| Sophisticated Backpacks (Unoffical Fabric port) | Mod       | 3.23.4.5.110 | Ajouté     |
+| Sophisticated Storage (Unofficial Fabric port)  | Mod       | 1.3.7.9.139  | Ajouté     |
 
 ## v1.0.0 - 2026-01-29
 
