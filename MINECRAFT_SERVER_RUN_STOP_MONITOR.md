@@ -115,6 +115,12 @@ If the session doesn’t exit after a few seconds, check logs. As a last resort,
 sudo -u minecraft screen -S mc -X quit
 ```
 
+If multiple sessions run, use this command to stop specific screen :
+
+```bash
+sudo -u minecraft screen -S XXX.mc -X quit
+```
+
 ---
 
 ## See if it’s running

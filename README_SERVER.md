@@ -19,9 +19,9 @@
 - architectury-13.0.8-fabric.jar
 - ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar
 - Radical Gyms & Structures - RGS.jar 0.6
-- DATA PACK : RCT-Badges-CobblemonPokemonBadges-0.15+1.1.2.zip
 - CobbleFurnies-fabric-1.0.jar
 - athena-fabric-1.21-4.0.2.jar
+- DATA PACK : RCT-Badges-CobblemonPokemonBadges-0.15+1.1.2.zip
 
 ### Hunger Remover
 
@@ -43,3 +43,13 @@
 ### Lootr
 
 - lootr-fabric-1.21.1-1.11.36.114.jar
+
+### Cobblemon Pasture Loot
+
+- pastureLoot-1.0.5+1.21.1.jar
+
+### Sophisticated (Unofficial Fabric port)
+
+- sophisticatedcore-1.21.1-1.2.9.21.168.jar
+- sophisticatedbackpacks-1.21.1-3.23.4.3.106.jar
+- sophisticatedstorage-1.21.1-1.3.7.9.139.jar
