@@ -25,8 +25,11 @@
 | **Oui**     | Waystones                                       | Mod       | 21.1.25      |
 | **Oui**     | Lootr                                           | Mod       | 1.11.36.114  |
 | **Oui**     | Cobblemon Pasture Loot                          | Mod       | 1.0.5        |
-| **Oui**     | Sophisticated Backpacks (Unoffical Fabric port) | Mod       | 3.23.4.5.110 |
+| **Oui**     | Sophisticated Backpacks (Unoffical Fabric port) | Mod       | 3.23.4.3.106 |
 | **Oui**     | Sophisticated Storage (Unofficial Fabric port)  | Mod       | 1.3.7.9.139  |
+| **Oui**     | Cobblemon Journey Mounts                        | Mod       | 1.7.2        |
+| **Oui**     | Cobbreeding                                     | Mod       | 2.1.1        |
+| **Oui**     | Trinkets                                        | Mod       | 3.10.0       |
 | _Non_       | CobbleThemes                                    | Mod       | 0.9.3-beta   |
 | _Non_       | RCT Badges — Cobblemon Pokemon Badges           | Datapack  | 1.1.2        |
 
