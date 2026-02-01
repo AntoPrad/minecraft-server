@@ -53,3 +53,12 @@
 - sophisticatedcore-1.21.1-1.2.9.21.168.jar
 - sophisticatedbackpacks-1.21.1-3.23.4.3.106.jar
 - sophisticatedstorage-1.21.1-1.3.7.9.139.jar
+- trinkets-3.10.0.jar
+
+### Cobblemon Journey Mounts
+
+- cobblemon-journey-mounts-1.7.2.jar
+
+### Cobbreeding
+
+- Cobbreeding-fabric-2.1.1.jar
