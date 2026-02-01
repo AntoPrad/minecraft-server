@@ -38,8 +38,8 @@
    Patienter le temps que le jeu se lance (met un peu de temps).
 
 7. Une fois le jeu lancé, aller dans "Options" et :
-   - **Language** > ajouter Français > s'assurer qu'il soit en haut de la liste à droite
-   - **Packs de ressources** > ajouter tous les mods sauf "Contraste élevé" et "Art de programmeur"
+   - **Language** > ajouter Français > s'assurer qu'il soit en haut de la liste à droite.
+   - **Packs de ressources** > ajouter **tous les mods** sauf "_Contraste élevé_", "_Art de programmeur_" et "_Lootr - Old Textures_".
    - [Optionnel car gourmand en ressources, mais rend le jeu 1000x plus joli] Activer les shaders :  
      **Graphismes** > Iris (à gauche) > Activer les Shaders, puis cliquer sur "ComplementaryReimagined..." et appliquer.
 
