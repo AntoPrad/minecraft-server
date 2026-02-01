@@ -1,6 +1,6 @@
 # Changelog du serveur Minecraft Cobblemon
 
-## v1.1.0 - 2026-02-01
+## v1.2.0 - 2026-02-01
 
 | Mod                      | Catégorie | Version | Changement |
 | ------------------------ | --------- | ------- | ---------- |
