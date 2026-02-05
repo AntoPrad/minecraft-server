@@ -30,6 +30,7 @@
 | **Oui**     | Cobblemon Journey Mounts                                                                                                                                          | Mod            | 1.7.2        |
 | **Oui**     | Cobbreeding                                                                                                                                                       | Mod            | 2.1.1        |
 | **Oui**     | Trinkets                                                                                                                                                          | Mod            | 3.10.0       |
+| _Non_       | MoreCobblemonTweaks                                                                                                                                               | Mod            | 1.3.0        |
 | _Non_       | RCT Badges — Cobblemon Pokemon Badges                                                                                                                             | Datapack       | 1.1.2        |
 | _Non_       | CobbleSounds (musiques ambiance + combats pokemons sauvages & dresseurs. **Attention**, gourmand en RAM : le développeur conseille d'allouer 6-8GB de RAM à Java) | Ressource Pack | 1.4.1        |
 | _Non_       | CobbleThemes (musiques combats pokemons sauvages. A installer **à la place** de CobbleSounds si vous ne pouvez/voulez pas l'utiliser)                             | Mod            | 0.9.3-beta   |
