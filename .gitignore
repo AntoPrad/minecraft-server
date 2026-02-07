@@ -32,7 +32,6 @@
 ############################
 logs/
 crash-reports/
-*cache*
 run/
 libraries/
 
