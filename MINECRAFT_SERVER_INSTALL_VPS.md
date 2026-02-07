@@ -190,3 +190,14 @@ sudo -u minecraft bash -c 'cd /srv/minecraft && java -Xms6G -Xmx6G -jar fabric-s
 ```
 
 Then stop cleanly by typing `stop` in the server console.
+
+## 7) Add daily restart
+
+MINECRAFT_SERVER="false"
+
+```bash
+sudo timedatectl set-timezone Europe/Paris
+timedatectl
+```
+
+minecraft_daily_restart.sh
