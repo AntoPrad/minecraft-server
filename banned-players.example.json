@@ -1,0 +1,18 @@
+[
+	{
+		"uuid": "00000000-0000-0000-0000-000000000001",
+		"name": "bad_player1",
+		"created": "2026-02-08 12:00:00 +0000",
+		"source": "Console",
+		"expires": "forever",
+		"reason": "Griefing"
+	},
+	{
+		"uuid": "00000000-0000-0000-0000-000000000002",
+		"name": "spammer123",
+		"created": "2026-02-07 09:30:00 +0000",
+		"source": "Admin",
+		"expires": "2026-03-01 00:00:00 +0000",
+		"reason": "Advertising"
+	}
+]
