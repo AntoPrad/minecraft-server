@@ -193,11 +193,53 @@ Then stop cleanly by typing `stop` in the server console.
 
 ## 7) Add daily restart
 
-MINECRAFT_SERVER="false"
+Add line `MINECRAFT_SERVER="true"` in /etc/environment
+
+```bash
+sudo nano /etc/environment
+```
+
+Set Timezone to Europe/Paris
 
 ```bash
 sudo timedatectl set-timezone Europe/Paris
+
 timedatectl
 ```
 
-minecraft_daily_restart.sh
+Be sure the daily restart script is present in `/srv/minecraft/minecraft_daily_restart.sh` and make it executable
+
+```bash
+sudo chmod +x /srv/minecraft/minecraft_daily_restart.sh
+```
+
+Add ubuntu folder to log and make ubuntu owner to store logs
+
+```bash
+sudo mkdir -p /var/log/ubuntu
+
+sudo chown ubuntu:ubuntu /var/log/ubuntu
+```
+
+Open cron 
+
+```bash
+crontab -e
+```
+
+And add this line to execute the script daily
+
+```bash
+0 5 * * * /usr/bin/env bash /srv/minecraft/minecraft_daily_restart.sh >> /var/log/ubuntu/minecraft_daily_restart.log 2>&1
+```
+
+Test to manually trigger the cron
+
+```bash
+/usr/bin/env bash /srv/minecraft/minecraft_daily_restart.sh >> /var/log/ubuntu/minecraft_daily_restart.log 2>&1
+```
+
+To check the cron logs :
+```bash
+cat /var/log/ubuntu/minecraft_daily_restart.log
+```
