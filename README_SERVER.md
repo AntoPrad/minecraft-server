@@ -62,3 +62,7 @@
 ### Cobbreeding
 
 - Cobbreeding-fabric-2.1.1.jar
+
+### OfflinePlayers
+
+- offlineplayersreworked-1.1.2.jar
