@@ -11,25 +11,7 @@
 ############################
 # Allow important folders
 ############################
-!config/
-!world/datapacks/
-!scripts/
-!docs/
-
-############################
-# Allow config files
-############################
-!config/**/*.json
-!config/**/*.toml
-!config/**/*.yml
-!config/**/*.yaml
-!config/**/*.conf
-!config/**/*.properties
-
-############################
-# Datapacks
-############################
-!world/datapacks/*/data/**
+!config/**/*
 
 ############################
 # Server config files
@@ -38,6 +20,7 @@
 !eula.txt
 !*.sh
 !*.ps1
+!*.example.json
 
 ############################
 # Doc files
@@ -49,7 +32,6 @@
 ############################
 logs/
 crash-reports/
-*cache*
 run/
 libraries/
 
@@ -65,8 +47,6 @@ mods/
 # Ignore worlds & player data
 ############################
 world/*
-!world/datapacks/
-!world/datapacks/**
 
 ############################
 # OS / editor junk

@@ -1,0 +1,16 @@
+[
+	{
+		"ip": "203.0.113.45",
+		"created": "2026-02-08 12:00:00 +0000",
+		"source": "Console",
+		"expires": "forever",
+		"reason": "Repeated connection spam"
+	},
+	{
+		"ip": "198.51.100.23",
+		"created": "2026-02-07 10:15:00 +0000",
+		"source": "Admin",
+		"expires": "2026-03-01 00:00:00 +0000",
+		"reason": "DDoS attempts"
+	}
+]
